@@ -8,8 +8,15 @@ body {
 
 .hero {
   text-align: center;
-  padding: 80px 20px 50px;
+  padding: 50px 20px 35px;
   background: #f3efe8;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
 }
 
 .hero h1 {
@@ -17,6 +24,15 @@ body {
   font-size: 3rem;
   font-weight: normal;
   letter-spacing: 1px;
+}
+
+.profile-pic {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
 section {
@@ -46,15 +62,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.profile-pic {
-  width: 45px;
-  height: 45px;
-  object-fit: cover;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 10px;
-}
-
 
 footer {
   text-align: center;
