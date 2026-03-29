@@ -1,31 +1,15 @@
-body {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.8;
-  background: #f8f6f2;
-  color: #222;
+.hero {
+  background: #f3efe8;
+  padding: 50px 0 35px;
+  text-align: center;
 }
 
-.hero {
-  text-align: center;
-  padding: 50px 20px 35px;
-  background: #f3efe8;
-}
-.profile-pic {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  display: block;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-}
 .hero-content {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 14px;
-  padding-left: 60px;
 }
+
 .hero h1 {
   margin: 0;
   font-size: 3rem;
@@ -34,46 +18,10 @@ body {
 }
 
 .profile-pic {
-  width: 65px;
-  height: 65px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
-  border-radius: 50%;
   display: block;
+  border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-}
-
-section {
-  max-width: 850px;
-  margin: 0 auto;
-  padding: 60px 24px;
-}
-
-h2 {
-  font-size: 1.8rem;
-  font-weight: normal;
-  margin-bottom: 24px;
-  border-bottom: 1px solid #d8d2c8;
-  padding-bottom: 10px;
-}
-
-p {
-  font-size: 1.08rem;
-  margin-bottom: 22px;
-}
-
-a {
-  color: #6b4f3a;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 30px 20px;
-  background: #f3efe8;
-  font-size: 0.95rem;
-  color: #555;
 }
