@@ -15,8 +15,10 @@ body {
 .hero-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 14px;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .hero h1 {
