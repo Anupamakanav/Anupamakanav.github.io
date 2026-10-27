@@ -42,12 +42,15 @@ body {
 }
 
 .site-title {
-  -family: "Libre Baskerville", serif;
-  -size: 39px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
   color: #20242a;
   text-decoration: none;
   white-space: nowrap;
 }
+
 
 .menu {
   display: flex;
