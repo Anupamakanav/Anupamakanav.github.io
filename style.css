@@ -43,7 +43,7 @@ body {
 
 .site-title {
   font-family: "Libre Baskerville", serif;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 400;
   letter-spacing: -0.5px;
   color: #20242a;
@@ -105,7 +105,7 @@ body {
 
 .sidebar-block a {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 9px;
   color: var(--accent);
   text-decoration: none;
