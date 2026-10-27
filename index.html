@@ -1,75 +1,106 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anupama S</title>
-  <meta name="description" content="Anupama S – Researcher in computational mechanics, with interests in literature and art.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Anupama S | Computational Mechanics</title>
+  <meta name="description" content="Personal website of Anupama S, a researcher in computational mechanics interested in fracture modelling, numerical methods, literature and art.">
   <meta name="author" content="Anupama S">
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="site-title">
-        <h1>Anupama S</h1>
-        <p>Computational Mechanics | Literature | Art</p>
-      </div>
+      <a href="#home" class="site-title">Anupama S</a>
 
-      <nav class="menu">
+      <nav class="menu" aria-label="Main navigation">
         <a href="#home">Home</a>
         <a href="#about">About Me</a>
-        <a href="#about">Articles</a>
-        <a href="#about">Codes</a>
-       
+        <a href="#articles">Articles</a>
+        <a href="#codes">Codes</a>
       </nav>
     </div>
   </header>
 
   <main id="home" class="main-layout">
+
     <aside class="sidebar">
       <img src="profile_pic.jpg" alt="Anupama S" class="profile-pic">
 
       <div class="sidebar-block">
-        <h3>Email</h3>
-        <p><a href="mailto:anupamas73@gmail.com">anupamas73@gmail.com</a></p>
+        <h3>Contact</h3>
+        <a href="mailto:anupamas73@gmail.com">anupamas73@gmail.com</a>
       </div>
 
       <div class="sidebar-block">
-        <h3>Profiles</h3>
-        <p><a href="https://scholar.google.com/citations?user=BwoHw8cAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a></p>
-        <p><a href="https://www.linkedin.com/in/anupama-s-749a1b106/" target="_blank">LinkedIn</a></p>
-        <p><a href="https://anupamakanavu.wordpress.com/" target="_blank">Blog</a></p>
-        <p><a href="https://instagram.com/colours.words.dreams" target="_blank">Art</a></p>
+        <h3>Elsewhere</h3>
+
+        <a href="https://scholar.google.com/citations?user=BwoHw8cAAAAJ"
+           target="_blank" rel="noopener noreferrer">Google Scholar</a>
+
+        <a href="https://www.linkedin.com/in/anupama-s-749a1b106/"
+           target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+        <a href="https://anupamakanavu.wordpress.com/"
+           target="_blank" rel="noopener noreferrer">Blog</a>
+
+        <a href="https://instagram.com/colours.words.dreams"
+           target="_blank" rel="noopener noreferrer">Art</a>
       </div>
     </aside>
 
-    <section id="about" class="content">
-      
+    <div class="main-content">
+      <section id="about" class="content">
+        <h1>Hello, I'm Anupama.</h1>
 
-      <p>
-        Hi, I am Anupama, a researcher in computational mechanics. My research work focuses on
-        understanding how materials fail and how computational methods can be used
-        to capture and predict fracture behaviour. Apart from fracture, I enjoy implementing and 
-        learning numerical methods in general.
-      </p>
+        <p>
+          I am Anupama, a researcher in computational mechanics.
+          My research work focuses on understanding how materials fail
+          and how computational methods can be used to capture and
+          predict fracture behaviour. Apart from fracture, I enjoy
+          implementing and learning numerical methods in general.
+        </p>
 
-      <p>
-        Literature has always been my first love. I am deeply drawn to 
-        philosophical and existential writers such as Dostoevsky, Kafka, Gogol,
-        and Nietzsche. I write occasionally in Malayalam and English, and some of
-        my writings can be found on <a href="https://anupamakanavu.wordpress.com/" target="_blank">my blog</a>.
-      </p>
+        <p>
+          Literature has always been my first love. I am deeply drawn
+          to philosophical and existential writers such as Dostoevsky,
+          Kafka, Gogol, and Nietzsche. I write occasionally in Malayalam
+          and English, and some of my writings can be found on
+          <a href="https://anupamakanavu.wordpress.com/"
+             target="_blank" rel="noopener noreferrer">my blog</a>.
+        </p>
 
-      <p>
-        Painting, for me, is a happy, meditative space. I share some of my artwork on
-        <a href="https://instagram.com/colours.words.dreams" target="_blank">Instagram </a>.
-      </p>
-    </section>
+        <p>
+          Painting, for me, is a happy, meditative space.
+          I share some of my artwork on
+          <a href="https://instagram.com/colours.words.dreams"
+             target="_blank" rel="noopener noreferrer">Instagram</a>.
+        </p>
+      </section>
+
+      <section id="articles" class="future-section">
+        <h2>Articles</h2>
+        <p>Coming soon.</p>
+      </section>
+
+      <section id="codes" class="future-section">
+        <h2>Codes</h2>
+        <p>Coming soon.</p>
+      </section>
+    </div>
+
   </main>
 
-  <footer id="contact">
+  <footer>
     <p>© 2026 Anupama S</p>
   </footer>
 
