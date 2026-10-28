@@ -99,7 +99,7 @@ a:focus-visible {
 }
 
 .menu a {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   color: #626973;
   text-decoration: none;
@@ -309,7 +309,7 @@ footer {
   }
 
   .menu a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .main-layout {
