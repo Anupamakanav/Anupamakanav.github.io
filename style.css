@@ -79,7 +79,7 @@ a:focus-visible {
   margin: 0;
 
   font-family: "Inter", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 1.6;
@@ -99,7 +99,7 @@ a:focus-visible {
 }
 
 .menu a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #626973;
   text-decoration: none;
@@ -190,7 +190,7 @@ a:focus-visible {
   border-top: 1px solid var(--border);
 }
 
-.site-section h2 {
+.-section h2 {
   margin: 0 0 7px;
 
   font-family: "Libre Baskerville", serif;
@@ -200,7 +200,7 @@ a:focus-visible {
   letter-spacing: -0.3px;
 }
 
-.site-section .section-description {
+.-section .section-description {
   color: var(--muted);
   font-size: 15px;
   margin-bottom: 23px;
@@ -253,7 +253,7 @@ a:focus-visible {
   text-align: left;
 }
 
-.site-section .gallery-note {
+.-section .gallery-note {
   font-size: 15px;
   margin-top: 16px;
 }
@@ -266,7 +266,7 @@ footer {
   padding: 24px;
   text-align: center;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 
@@ -304,12 +304,12 @@ footer {
   }
 
   .site-subtitle {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.4px;
   }
 
   .menu a {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .main-layout {
