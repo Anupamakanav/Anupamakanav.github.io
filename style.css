@@ -350,3 +350,19 @@ footer {
     columns: 1;
   }
 }
+
+/* Separate Art page */
+
+.gallery-page {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+/* Indicate current navigation page */
+
+.menu a[aria-current="page"] {
+  color: var(--accent);
+  font-weight: 600;
+}
+
