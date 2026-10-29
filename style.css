@@ -366,3 +366,69 @@ footer {
   font-weight: 600;
 }
 
+/* Writings page */
+
+.writings-layout {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 65px 30px 100px;
+}
+
+.writings-layout h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.writings-intro {
+  color: var(--muted);
+  font-size: 17px;
+  margin-bottom: 55px;
+}
+
+.poetry-section h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+}
+
+.poem {
+  margin-bottom: 65px;
+}
+
+.poem h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.poem-text {
+  font-family: "Libre Baskerville", serif;
+  font-size: 17px;
+  line-height: 2;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.blog-link {
+  border-top: 1px solid var(--border);
+  padding-top: 25px;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.blog-link a {
+  color: var(--accent);
+}
+
+@media (max-width: 750px) {
+  .writings-layout {
+    padding: 40px 22px 70px;
+  }
+}
+
