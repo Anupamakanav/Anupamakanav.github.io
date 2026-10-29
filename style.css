@@ -411,7 +411,7 @@ footer {
   font-family: "Libre Baskerville", serif;
   font-size: 17px;
   line-height: 2;
-  white-space: pre-line;
+  white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
 
